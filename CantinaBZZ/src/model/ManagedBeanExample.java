@@ -1,10 +1,13 @@
+package model;
+
+import java.io.Serializable;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-import java.io.Serializable;
 
 @ManagedBean
 @SessionScoped
-public class HelloBean implements Serializable {
+public class ManagedBeanExample implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
